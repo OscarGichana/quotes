@@ -1,6 +1,24 @@
+
+
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+This is an app that allows user to access Inspirational quotes to keep it going.
+
+## Author
+
+Oscar Nyameino Gichana. You can reach me through gichanaoscar3@gmail.com.
+
+## Description
+
+User can get quotes and upvote or downvote or delete them according to the ones he or she finds more inspiring. User can in turn post quotes too. Details of the post include Its author and the name of the user who posted it.
+
+## Technologies used
+
+1.HTML 2.TYPESCRIPT 3.ANGULAR2 4.NODE
+
+## Accesibility
+
+Copy the link  in your browser and be inspired.
 
 ## Development server
 
