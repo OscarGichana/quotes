@@ -8,8 +8,10 @@ import { Quote } from '../shared/quotes';
 })
 export class QuoteDetailComponent implements OnInit {
 
+  
   @Input() quote: Quote;
   @Output() isComplete = new EventEmitter<boolean>();
+  
 
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
@@ -27,6 +29,8 @@ export class QuoteDetailComponent implements OnInit {
     this.downVotes=this.downVotes+1;
     this.downdateUs=this.downVotes;
   }
+
+
 
   constructor() { }
 

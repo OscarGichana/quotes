@@ -9,8 +9,8 @@
 
 <p>Downvotes:{{downdateUs}}</p>
 
-<p appHighlight>This quote was posted on {{quote.completeDate | date}} </p>
+<p appHighlight >This quote was posted on {{quote.completeDate | date}} </p>
 <button class="btn btn-primary" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>
 <button class="btn btn-secondary" (click)='downVote()'> downVote <span>{{downVotes}}</span></button>
-<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<button (click)= 'quoteDelete(true)' class="btn btn-danger">Delete Quote</button>
 

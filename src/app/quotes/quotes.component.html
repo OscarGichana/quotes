@@ -1,12 +1,15 @@
-<div class="container">
-  <h1>HOLLA QUOTES</h1>
+<div  class="container">
+  <div class="jumbotron">
+    <h1>HOLLA QUOTES</h1>
+    <p>Get Daily inspirations with daily Quotes. Post a quote and see who likes it most Inspire and be Inspired.</p>
+  </div>
   <hr>
 
   <div class="row">
     <div class="col-md-6">
       <div *ngFor='let quote of quotes;let i = index'>
-        <div>
-          <h6 id={{i}}>{{quote.quote}} </h6>
+        <div >
+          <h6 id={{i}} class="big-font">{{quote.quote}} </h6>
           <button (click)='toggleDetails(i)' class="btn btn-success">Show Details</button>
         </div>
 
@@ -24,8 +27,10 @@
       </div>
   
 
-
-
-  </div>
+      <hr>
+      <hr>
+      <hr>
+    </div>
+  
 </div>
 
